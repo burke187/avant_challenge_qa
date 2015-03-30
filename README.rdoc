@@ -1,0 +1,6 @@
+=Avant Credit QA Challenge
+Test for http://demo.avantcredit.com using Capybara, RSpec, and Selenium.
+
+=Running Locally
+Run 'bundle' to install dependencies
+Navigate to the 'spec' folder and run 'rspec spec.rb'

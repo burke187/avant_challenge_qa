@@ -32,18 +32,18 @@ module SpecHelper
 			customer_address_address_1: Faker::Address.street_address,
 			customer_address_address_2: Faker::Address.building_number,
 			customer_address_city: Faker::Address.city,
-			customer_address_state: Faker::Address.state_abbr,
+			customer_address_state: "AL",
 			customer_address_zip: Faker::Address.zip,
 			person_date_of_birth_month: "Oct",
 			person_date_of_birth_day: "25",
-			person_date_of_birth_year: "1987",
+			person_date_of_birth_year: "1991",
 			person_home_phone: Faker::PhoneNumber.phone_number,
-			customer_email: Faker::Internet.email,
+			customer_email: "#{Faker::Lorem.characters(6)}@avantcredit.test",
 			customer_password: "secret123",
 			customer_password_confirmation: "secret123",
 			income_income_type: "Employed (Non-Military)",
 			person_ssn: Faker::Number.number(9),
-			income_monthly_net_income: "5000.00"
+			income_monthly_net_income: "4000"
 		}
 	end
 
